@@ -9,7 +9,6 @@ int GetThePosition(int t[],int Size)
         {
             if ((!(t[b]+t[b+1])&& b!=Size-1 && b!=a)||(t[b]==0&&pos!=-1))
             {
-                printf("\t\t%d\t%d\n",a,b);
                 break;
             }
             subseq++;
@@ -27,7 +26,8 @@ int GetThePosition(int t[],int Size)
 }
 void main()
 {
-  int Array[]={1,1,1,1},Size=5;
+   /// as you modify the array please make sure to change the value of the variable Size too
+  int Array[]={1,0,1,0,1,1,0,0,1,1,1,1,0,1,1,1,0,1},Size=18;
   printf("%d\n",GetThePosition(Array,Size));
   /*
   1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1               19
