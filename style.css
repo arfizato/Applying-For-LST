@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+/* font-family: 'Mulish', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+/*  font-family: 'Metrophobic', sans-serif;*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Mulish', sans-serif;
+}
+body {
+	/*	background:#585c6860; */ 
+	font-size: 14px;
+	line-height: 22px;
+	color: #555555; 
+}
+.resume{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding: 0;
+	margin: 0 10px;
+	margin-left:0;
+	
+	
+	background-image: url("images/pattern.jpg");
+	background-color: rgba(255,255,255,100);
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+.resume .leftNavBar{
+	width:50%;
+	height: auto;	
+	background: #D1CFC4;
+	margin: 0;
+	margin-right: 20px;
+
+}
+.resume .leftNavBar .profilePic{
+	width: 100%;
+	height: auto;
+	padding: 20px 15px;	
+	border-radius: 50%;
+}
+.resume .leftNavBar .leftText{
+	text-align: center;
+	color: #47533D;
+}
+.fullName{
+	font-size: 25px;
+	
+}
+.listItem{
+	display: inline;
+}
+.phoneIcon { 
+	display: flex;
+	justify-content:center;
+}
+.socialMedia{
+	display: flex;
+	justify-content:center;
+}
+.saveButton{
+	text-align: center;
+	vertical-align: middle;
+	padding: .67em ;
+	cursor: pointer;
+	
+	margin: .5em 15% 2em 38%;
+	color: white;
+	border: 2px solid #2797CF;
+	background-color: rgba(255,255,255, .1);
+	border-radius: 1.5em;
+	font-weight: lighter;
+	padding-left: 2em;
+	padding-right: 2em;
+	
+	display: flex;
+	justify-content:center;
+	
+}
+.saveButtonLink{
+	text-decoration: none;
+}
+.saveButton:hover{
+	background-color: rgba(255,255,255, .3);
+
+}
+/* Right side */ 
+.rightNavBar{
+	margin: 50px 20px ;
+}
+.rightNavBar p{
+	padding-left: 25px;	
+}
+.container {
+	padding: 20px 0px;
+}
+.sectionTitle{
+	font-size: 30px;
+}
+.aboutMe, .WorkSubSection{
+	padding: 20px;
+}
+.jobName{
+	font-size:17px;
+}
+.jobDate{
+	font-size: 11px;
+	padding:2px 7px;
+}
+/* general */
+.fullName, .sectionTitle{
+	font-family: 'Metrophobic', sans-serif;
+}
+.textLink{
+	text-decoration: none;
+	color: #48513C;
+}
+
+
+
+
