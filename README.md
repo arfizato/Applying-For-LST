@@ -6,3 +6,5 @@ hoping to hear from you soon
 https://drive.google.com/drive/folders/1rAcInXL9QFllU-bvYNg4jcCs56c6WeOJ?usp=sharing
 
 PS: the introduction is a poem. please take that in consideration while reading it and listen to the audio file "Reading Presentation Poem.mp3" afterwards. It is included in the drive folder and thanks.
+
+This is also now hosted on netlify. click :https://ibrahimd-cv.netlify.app/
