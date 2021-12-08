@@ -45,6 +45,7 @@ body {
 }
 .resume .leftNavBar{
 	width:50%;
+	max-width: 500px;
 	height: auto;	
 	background: #D1CFC4;
 	margin: 0;
@@ -70,6 +71,10 @@ a .leftText{
 }
 .listItem{
 	display: inline;
+	margin: 0 10px 10px 10px;
+}
+.listItem img{
+	width: 50px;
 }
 .centerIcon { 
 	display: flex;
@@ -200,10 +205,16 @@ a .leftText{
 
 .skillList{
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	width: 100%;
 }
 
+.skillName{
+	font-size: 18px;
+	margin: .7em 0px .2em;
+	font-weight: bold;
+}
 
  .skillPer {
 	 width: 75%;
@@ -230,11 +241,6 @@ a .leftText{
 	.englishProg{
 		width: 85%;
 	}
-.skillName{
-	font-size: 18px;
-	margin: .7em 0px .2em;
-	font-weight: bold;
-}
 
 
 
