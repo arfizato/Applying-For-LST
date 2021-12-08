@@ -74,6 +74,7 @@ a .leftText{
 	margin: 0 10px 10px 10px;
 }
 .listItem img{
+	filter: opacity(.7);
 	width: 50px;
 }
 .centerIcon { 
