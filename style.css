@@ -56,7 +56,7 @@ body {
 	width: 100%;
 	height: auto;
 	padding: 20px 15px;	
-	border-radius: 50%;
+	border-radius: 10% 10% 20% 10%;
 }
 .resume .leftNavBar .leftText{
 	text-align: center;
@@ -145,7 +145,14 @@ a .leftText{
 }
 .textLink{
 	text-decoration: none;
+	font-weight: 400;
 	color: #48513C;
+	transition: all .5s;
+}
+.textLink:hover{
+	color: #2797cf;
+	font-size: 1.05rem;
+	/* font-weight: 700; */
 }
 .skill{
 	font-size: 16px;
