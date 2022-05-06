@@ -73,9 +73,13 @@ a .leftText{
 	display: inline;
 	margin: 0 10px 10px 10px;
 }
-.listItem img{
+.ListItemImg{
 	filter: opacity(.7);
 	width: 50px;
+	transition: all 1s;
+}
+.ListItemImg:hover{
+	transform: scale(1.2) rotateX(360deg);
 }
 .centerIcon { 
 	display: flex;
