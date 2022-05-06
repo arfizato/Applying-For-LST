@@ -76,7 +76,7 @@ a .leftText{
 .ListItemImg{
 	filter: opacity(.7);
 	width: 50px;
-	transition: all 1s;
+	transition: all .5s;
 }
 .ListItemImg:hover{
 	transform: scale(1.2) rotateX(360deg);
